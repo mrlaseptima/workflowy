@@ -1,0 +1,28 @@
+.task {
+  display: flex;
+  flex-direction: column;
+}
+
+.task .circleIcon {
+  display: inline-block;
+  fill: var(--medium-gray);
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+.task .title {
+  width: 100%;
+  outline: none;
+}
+
+.task > div:first-child {
+  display: flex;
+}
+
+.subTasks {
+  padding-left: 1rem;
+  margin-left: 0.55rem;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgba(200, 200, 200, 0.3);
+}

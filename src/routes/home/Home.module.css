@@ -1,0 +1,25 @@
+.home {
+  padding: 10rem;
+}
+.addButton {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.addButton span {
+  font-size: 1.2rem;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.addButton small {
+  opacity: 0.2;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.addButton:hover span {
+  opacity: 1;
+}

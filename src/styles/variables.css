@@ -1,0 +1,9 @@
+:root {
+  /* colors */
+  --black: #222;
+  --medium-gray: #4b5155;
+
+  /* typography */
+  --text-font-family: "GoogleSans";
+  --text-primary-color: var(--black);
+}
